@@ -1,0 +1,10 @@
+{
+  "name": "arrayaccess",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.0"
+  }
+}

@@ -19,7 +19,20 @@ As a favicon:
 ## Files
 
 - `logo.svg` — Square logo (7×7 viewBox)
+- `logo-{32,64,128,256,512}.png` — Generated PNG versions (transparent)
+- `logo-{32,64,128,256,512}-white.png` — Generated PNG versions (white background)
 - `index.html` — Showcase page with usage documentation
+
+## Build
+
+Generate PNG versions from the SVG:
+
+```sh
+npm install
+npm run build
+```
+
+This produces `logo-32.png` through `logo-512.png`.
 
 ## Hosting
 
